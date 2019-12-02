@@ -12,7 +12,7 @@ namespace ConsoleApp1
         {
             int nr=0;
             Random rand = new Random();
-            int r = rand.Next(0, 100);
+            int r = rand.Next(0, 101);
             Console.WriteLine("Numarul random generat {0}",r);
             Console.WriteLine("Guess the number");
             do
